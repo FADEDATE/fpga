@@ -1,0 +1,39 @@
+set_property PACKAGE_PIN P17 [get_ports sys_clk_p]
+set_property IOSTANDARD LVDS_25 [get_ports sys_clk_p]
+set_property PACKAGE_PIN R10 [get_ports rst_n]
+set_property PACKAGE_PIN A14 [get_ports uart_rx]
+set_property PACKAGE_PIN A13 [get_ports uart_tx]
+set_property IOSTANDARD LVCMOS33 [get_ports rst_n]
+set_property IOSTANDARD LVCMOS33 [get_ports uart_rx]
+set_property IOSTANDARD LVCMOS33 [get_ports uart_tx]
+
+set_property PACKAGE_PIN D10 [get_ports led]
+set_property IOSTANDARD LVCMOS33 [get_ports led]
+
+
+
+
+
+
+set_property PACKAGE_PIN U11 [get_ports Echo_a]
+set_property PACKAGE_PIN V17 [get_ports Echo_b]
+set_property PACKAGE_PIN E17 [get_ports Echo_c]
+set_property PACKAGE_PIN A15 [get_ports Echo_d]
+set_property IOSTANDARD LVCMOS33 [get_ports Echo_a]
+set_property IOSTANDARD LVCMOS33 [get_ports Echo_b]
+set_property IOSTANDARD LVCMOS33 [get_ports Echo_c]
+set_property IOSTANDARD LVCMOS33 [get_ports Echo_d]
+set_property PACKAGE_PIN T11 [get_ports Trig_a]
+set_property PACKAGE_PIN U16 [get_ports Trig_b]
+set_property IOSTANDARD LVCMOS33 [get_ports Trig_a]
+set_property IOSTANDARD LVCMOS33 [get_ports Trig_b]
+set_property IOSTANDARD LVCMOS33 [get_ports Trig_c]
+set_property IOSTANDARD LVCMOS33 [get_ports Trig_d]
+
+set_property PACKAGE_PIN A18 [get_ports angle_sig_a]
+set_property PACKAGE_PIN B18 [get_ports angle_sig_b]
+set_property IOSTANDARD LVCMOS33 [get_ports angle_sig_a]
+set_property IOSTANDARD LVCMOS33 [get_ports angle_sig_b]
+
+set_property PACKAGE_PIN D17 [get_ports Trig_c]
+set_property PACKAGE_PIN A16 [get_ports Trig_d]
